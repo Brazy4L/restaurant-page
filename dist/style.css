@@ -58,8 +58,18 @@ body {
 }
 
 #content-about {
+    margin-top: 40px;
     grid-area: 2 / 2 / 3 / 3;
     display: grid;
+    row-gap: 40px;
+    background-color: #1a1a1a;
+    border-radius: 50px;
+    display: grid;
+    padding: 30px;
+}
+
+#content-about > div {
+    text-align: justify;
 }
 
 #content > :nth-child(1) {
