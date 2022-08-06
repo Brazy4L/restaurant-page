@@ -7,6 +7,10 @@
     color: #fff;
 }
 
+html {
+    overflow-y: overlay;
+}
+
 body {
     margin: 0;
 }
@@ -31,6 +35,18 @@ body {
 #header > div {
     height: 100px;
     cursor: pointer;
+}
+
+#header > div:hover {
+    color: #67b9df;
+}
+
+#header > div:active {
+    transform: scale(1.02);
+}
+
+.active {
+    color: #00aeff;
 }
 
 #header > :nth-child(1) {
@@ -99,6 +115,7 @@ body {
 #content > :nth-child(1) {
     height: 300px;
     overflow: hidden;
+    border-radius: 50px;
 }
 
 #content > :nth-child(1) > img {
