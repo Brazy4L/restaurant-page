@@ -30,6 +30,7 @@ body {
 
 #header > div {
     height: 100px;
+    cursor: pointer;
 }
 
 #header > :nth-child(1) {
@@ -48,6 +49,17 @@ body {
     display: grid;
     grid-template: 300px 1fr / 1fr;
     row-gap: 40px;
+}
+
+#content-menu {
+    grid-area: 2 / 2 / 3 / 3;
+    display: grid;
+    gap: 40px;
+}
+
+#content-about {
+    grid-area: 2 / 2 / 3 / 3;
+    display: grid;
 }
 
 #content > :nth-child(1) {
